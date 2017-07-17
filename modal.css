@@ -1,0 +1,50 @@
+body {
+	background-image: url('670221main_PIA14739_full.jpg');
+	background-repeat: no-repeat center center fixed;
+	background-size:cover;
+	font-size:100%;
+	font-family:Arial, serif;
+	line-height:1.5;
+	text-align:center;
+	color:white;
+}
+.modal {
+    display:hide;
+}
+.container{
+	color:white;
+	padding-top:20px;
+	padding-bottom:90px;
+}
+.col-sm-4{
+	display:inline;
+	color:white;
+}
+.jumbotron{
+	background-image: url('106281main_image_feature_251_hires (1).jpg');
+	background-size:cover;
+	background-repeat:no-repeat center center fixed;
+	display:block;
+}
+h1{
+	text-align:center;
+}
+p {
+	text-align:center;
+}
+.main-footer{
+	padding-top:160px;
+}
+.navbar , navbar-inverse{
+	background-color: transparent;
+}
+
+@media screen and (max-width: 960px) { 
+  body {
+    left: 50%;
+    background-color:lightblue;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+}
+
